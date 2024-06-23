@@ -112,7 +112,7 @@ body {
 
 @media (max-width: 769px) {
 	.image-button {
-		top: calc(75vh);
+		top: calc(65vh);
 		left: calc(10vw);
 	}
 }
