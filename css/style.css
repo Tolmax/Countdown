@@ -17,8 +17,8 @@ body {
 .container {
     margin: 10px 10px;
     max-width: 900px;
-		min-width: 375px;
-		min-height: 650px;
+		min-width: 370px;
+		min-height: 750px;
     display: flex;
     justify-content: left;
     align-items: center;
