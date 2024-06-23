@@ -18,7 +18,7 @@ body {
     margin: 10px 10px;
     max-width: 900px;
 		min-width: 375px;
-		min-height: 550px;
+		min-height: 650px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -93,7 +93,7 @@ body {
 	position: absolute;
 	top: 50px;
 	right: 50px;
-	/* background-image: url('../img/Heart.png') center no-repeat; */
+	background-image: url('../img/heart-Photoroom.png');
 	background-size: cover;
 	margin: 0; 
 	padding: 0; 
