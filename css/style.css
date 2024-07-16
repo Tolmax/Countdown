@@ -6,7 +6,7 @@
 
 body {
     font-family: "Roboto Condensed", sans-serif;
-		background-image: url(../img/Liza.png);
+		background-image: url(../img/dina.png);
 		/* background-position: left 10% bottom 50%; */
 		background-position: center;
 		background-repeat: no-repeat;
@@ -15,7 +15,8 @@ body {
 }
 
 .container {
-    margin: 10px 10px;
+    padding: 10px 10px;
+    margin: 0 auto;
     max-width: 900px;
 		min-width: 370px;
 		min-height: 750px;
@@ -26,14 +27,14 @@ body {
 }
 @media (max-width: 426px) {
 	.container {
-		margin: 10px 10px;
-    padding: 0;
+		/* margin: 10px 10px;
+    padding: 0; */
 		justify-content: left;
 	}
 }
 
 .title {
-	color:purple;
+	color:red;
 	margin-left: 125px;
 	font-size: 80px;
 	font-weight: bold;
@@ -50,10 +51,10 @@ body {
 }
 
 .text {
-    color:purple;
+    color:red;
     margin: 0, auto;
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -61,6 +62,15 @@ body {
 	.text {
 		font-size: 25px;
 		font-weight: 700;
+		font-style: italic;
+	}
+}
+
+@media (max-width: 426px) {
+	.name {
+		color:red;
+		font-size: 45px;
+		font-weight: 900;
 		font-style: italic;
 	}
 }
@@ -106,15 +116,35 @@ body {
 	cursor: pointer;
 }
 
-.image-button:hover {
+/* .image-button:hover {
 		transform: scale(2);
-}
+} */
 
 @media (max-width: 769px) {
 	.image-button {
 		top: calc(65vh);
 		left: calc(10vw);
 	}
+}
+
+@keyframes heartbeat {
+	0% {
+		transform: scale( 1 );
+	}
+	20% {
+		transform: scale( 1.25 )
+			translateX(15%)
+			translateY(15%);
+	}
+	40% {
+		transform: scale( 1.5 )
+			translateX(19%)
+			translateY(20%);
+	}
+ }
+
+ .image-button {
+  animation: heartbeat 1s infinite;
 }
 
 /* @media (max-width: 426px) {

@@ -3,7 +3,7 @@ const countdownElement = document.querySelector('.countdown')
 
 function getcountdownTime() {
   // Создаем точку отсчёта времени
-  const countdownDate = new Date(2024, 6, 8, 0, 0, 0).getTime(); //getTime() переводит в милисекунды
+  const countdownDate = new Date(2024, 9, 13, 0, 0, 0).getTime(); //getTime() переводит в милисекунды
   console.log(countdownDate);
 
   // Создаем текущее время
